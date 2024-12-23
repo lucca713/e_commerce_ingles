@@ -1,0 +1,20 @@
+
+  .carousel {
+    height: 800px; /* Altura do carrossel */
+  }
+  .carousel img {
+    max-height: 800px; /* Altura máxima das imagens */
+    object-fit: cover; /* Garante que as imagens não fiquem distorcidas */
+  }
+  .carousel-item {
+    height: 100%; /* Itens do carrossel ocupam a altura do contêiner */
+  }
+  .card-img-overlay {
+    bottom: 20%; /* Ajusta a posição do texto sobreposto */
+  }
+
+  .card-description{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+    padding: 300px 0px 0px 300px;
+}
